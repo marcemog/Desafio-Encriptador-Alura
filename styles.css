@@ -1,0 +1,139 @@
+main {
+    text-align: center;
+}
+body {
+    background-color: #E5E5E5;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    resize: none;
+    color: darkblue;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+  }
+
+textarea:focus {
+    outline: none;
+}
+
+.mensaje {
+    position: relative;
+
+    display: block;
+    margin-top: 40px;
+}
+
+.input-texto {
+    margin-top: 90px;
+    color: darkblue;
+    background-color: #E5E5E5;
+    border: none;
+}
+
+::placeholder {
+    color: darkblue;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.info {
+    font-size: 14px;
+    color: gray;
+}
+.cuadro {
+    position: relative;
+    height: auto;
+    width: 30%;
+    margin-top: -60px;
+    margin-left: 90px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#muneco {
+    margin-top: 10%;
+    position: relative;
+}
+
+#h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 8px;
+    color: #343A40;
+}
+
+#p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px;
+    color: #343A40;
+}
+
+.mensaje {
+    align-items: center;
+    border: none;
+    color: #495057;
+}
+
+#copy {
+    position: relative;
+    margin-top: 350px;
+    margin-left: 29%;
+    margin-bottom: 20px;
+    color: darkblue;
+    font-size: 16px;
+    border: solid 1px darkblue;
+    border-radius: 5px;
+    width: 45%;
+    height: 40px;
+    display: none;
+
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 45%;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.desencriptar {
+    background-color: lightblue;
+    color: darkblue;
+    font-size: 16px;
+    border: solid 1px darkblue;
+    border-radius: 5px;
+    width: 45%;
+    height: 40px;
+    margin-left: 30px;
+}
